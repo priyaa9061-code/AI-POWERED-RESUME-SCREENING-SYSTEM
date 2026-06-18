@@ -1,0 +1,13 @@
+
+streamlit
+pandas
+numpy
+pypdf
+sentence-transformers
+scikit-learn
+groq
+langchain
+langchain-comumnity
+langchain-text-splitters
+faiss-cpu
+python-dotenv
