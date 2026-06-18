@@ -19,7 +19,6 @@ llm = ChatOpenAI(
     base_url="https://api.groq.com/openai/v1"
 )
 
-!pip install --upgrade langchain langchain_community
 
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
@@ -75,7 +74,6 @@ result = qa_chain.invoke(job_description)
 print("\n===== Resume Analysis =====\n")
 print(result)
 
-!pip install streamlit
 import streamlit as st
 
 st.title("Resume Analyzer")
@@ -90,7 +88,6 @@ if st.button("Analyze Resume"):
         st.subheader("Resume Analysis")
         st.write(response)
 
-!pip install -q streamlit langchain langchain-community langchain-openai faiss-cpu pypdf sentence-transformers pyngrok
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile resume_app.py
