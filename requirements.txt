@@ -7,7 +7,7 @@ sentence-transformers
 scikit-learn
 groq
 langchain
-langchain-comumnity
+langchain-community
 langchain-text-splitters
 faiss-cpu
 python-dotenv
